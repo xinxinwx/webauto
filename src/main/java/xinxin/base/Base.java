@@ -25,7 +25,7 @@ public class Base {
         }else if ("firefox".equalsIgnoreCase(browserType)){
              webDriver=new FirefoxDriver();
         }else if ("chrome".equalsIgnoreCase(browserType)){
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe");
+          //  System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe");
             webDriver=new ChromeDriver();
         }else {
             System.out.println("暂不支持该浏览器");
